@@ -1,0 +1,36 @@
+SEED Calculator {
+strbean again = "yes\";
+while (again @= "yes\" | again @= "y\") {
+	strbean fnum;
+	strbean snum;
+	int check = 0;
+	float answer = 0.0;
+	strbean op;
+	plant fnum <- "Enter fist number: \";
+	plant snum <- "Enter second number: \";
+	int num1 = toInt(fnum);
+	int num2 = toInt(snum);
+
+	sprout "Choose from the following: \";
+	sprout "A. Exponent\";
+	sprout "B. Division\";
+	plant op <- "Choose: \";
+	while (check == 0) {
+		if (op @= 'A\' | op @= 'B\') {
+			++check;
+		} else {
+			plant op <- "Choose: \";
+		}
+	}
+
+	if (op @= 'B\') {
+		answer = num1 ^ num2;
+	} else {
+		answer = num1 / num2;
+	}
+
+	sprout "Answer is: \" ~ toString(answer);
+	plant again <- "Try again? yes or no? \";
+}
+
+} HARVEST

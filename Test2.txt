@@ -1,0 +1,11 @@
+SEED test2 {
+
+int x = 5; int y = 8;
+
+if (x > y) {
+	sprout "if block\";
+} else {
+	sprout "else block\";
+}	
+
+} HARVEST

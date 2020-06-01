@@ -1,0 +1,20 @@
+SEED program {
+
+int c,x;
+strbean name = "Chester\";
+if (c @= "hi\") {
+	if (x > 5) {
+		sprout name;
+		uproot;
+	} elif (x <= 3.5) {
+		grow;
+	}
+	int z = 0;
+} else {
+	strbean age;
+	plant age <- "How old are u\";
+	sprout age;
+	++c;
+}
+
+} HARVEST

@@ -1,0 +1,13 @@
+SEED test3 {
+
+int i = 0;
+int total = 0;
+
+while (i < 10) {
+	++total;
+	++i;
+}
+
+sprout total;
+
+} HARVEST

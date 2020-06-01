@@ -1,0 +1,9 @@
+SEED test10 {
+
+strbean number = "23\";
+strbean name = "hello\";
+int x = 12;
+
+sprout toInt(number) ~ " \" ~ toString(x) ~ "is not equal to \" ~ length(name); 
+
+} HARVEST

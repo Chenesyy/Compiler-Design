@@ -1,0 +1,12 @@
+SEED test9 {
+
+strbean str1 = "string\";
+strbean str2 = "beans\";
+
+if (str1 @= str2) {
+	sprout str1 ~ str2;
+} elif (str1 !@ str2) {
+	sprout "Hindi pareho!\";
+}
+
+} HARVEST

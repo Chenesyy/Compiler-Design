@@ -1,0 +1,13 @@
+SEED simpleProgram1 {
+
+int total = 5;
+int x = 0;
+
+while (x != 10 & x >= 0) {
+	total = x + 1;
+	++x;
+}
+
+sprout "Total is: \" ~ total;
+
+} HARVEST

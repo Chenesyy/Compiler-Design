@@ -1,0 +1,16 @@
+SEED simpleProgram2 {
+
+int i = 10;
+plant i;
+while (i > 0 & i < 11) {
+	if (i == 4) {
+		--i;
+		grow;
+	} else {
+		x = 4-3/5*6+7^2;
+	}
+	sprout i ~ " \";
+	--i;
+}
+
+} HARVEST

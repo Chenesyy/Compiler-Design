@@ -1,0 +1,20 @@
+SEED simpleProgram3 {
+
+bool check = FALSE;
+int counter,answer;
+strbean var = "Love\";
+int x = length(var);
+
+while(counter <= x) {
+	answer = x * 1 - 1;
+	check = TRUE;
+	uproot;
+}
+
+if (check @= FALSE) {
+	sprout check;
+} elif (check @= TRUE) {
+	sprout " LOV\" ~ answer ~ " is \" ~ check;
+}
+
+} HARVEST
